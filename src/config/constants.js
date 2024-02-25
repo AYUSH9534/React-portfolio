@@ -22,4 +22,4 @@ export const navBarMenu = [
     }
 ]
 
-export const RESUME_URL = "https://drive.google.com/drive/u/0/my-drive?q=after:2024-02-18%20parent:0ABbD_TcyeA1hUk9PVA"
+export const RESUME_URL = "https://drive.google.com/file/d/15TYUJWpAYf0ozLLz1nN27K9Mwx4NM3-B/view?usp=sharing"
