@@ -12,12 +12,12 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("portfolio-backend-production-a770.up.railway.app/send", {
+      const res = await fetch("https://portfolio-backend-production-a770.up.railway.app/send", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, message: text }),
       });
-
+      
       const data = await res.json();
       if (data.success) {
         alert("Your response has successfully been submitted");
